@@ -1,0 +1,32 @@
+@use "sass:math";
+/*@function screenculate($screenOption){
+   @return $screenOption;
+}*/
+@media screen and (aspect-ratio: 16/9) {
+   $screenSign:1
+}
+
+@function vw($px,$screenOption:1) {
+  @if ($screenOption==1){
+  @return math.div($px , 1920) * 100vw;
+  }
+}
+ 
+@function vh($px,$screenOption:1) {  
+  @if ($screenOption==1){
+  @return math.div($px , 1080) * 100vh;
+  }
+}
+
+@function font($px,$screenOption:1) {
+  @if ($screenOption==1){
+  @return math.div($px, 1920) * 100vw;
+  }
+}
+
+
+
+
+
+
+

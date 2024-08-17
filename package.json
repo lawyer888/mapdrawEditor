@@ -1,0 +1,44 @@
+{
+  "name": "jngj_editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:test": "vite build --mode test",
+    "build:prod": "vite build --mode production"
+  },
+  "dependencies": {
+    "@iamzzg/data-view": "^2.10.0",
+    "@types/lodash": "^4.14.195",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.4.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.3.7",
+    "fast-glob": "^3.3.0",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "ol": "^8.2.0",
+    "postcss": "^8.4.27",
+    "postcss-pxtorem": "^6.0.0",
+    "proj4": "^2.9.2",
+    "qs": "^6.11.2",
+    "sass": "^1.63.6",
+    "swiper": "^11.0.3",
+    "vite-plugin-compression": "^0.5.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "terser": "^5.22.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^1.8.3"
+  }
+}
